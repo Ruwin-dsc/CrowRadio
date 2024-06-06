@@ -1,0 +1,6 @@
+{
+  "token": "TOKEN",
+  "color": "#e50036",
+  "owners": ["OWNER ID"],
+  "flux": "http://cdn.nrjaudio.fm/audio1/fr/40101/aac_576.mp3"
+}
