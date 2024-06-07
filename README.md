@@ -12,18 +12,18 @@
 - [🪄・Discord](https://discord.gg/uhq)
 
 ## <a id="deploys"></a>📩 〢 Deploys
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/replit.svg)](https://replit.com/github/Ruwin-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/replit.svg)](https://replit.com/github/Ruwin-dsc/CrowRadio)
 
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/Ruwin-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/Ruwin-dsc/CrowRadio)
 
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Ruwin-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Ruwin-dsc/CrowRadio)
 
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/Ruwin-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/Ruwin-dsc/CrowRadio)
 
 ## <a id="setup"></a> 📁 〢 Setting up
 
 1. Install [NodeJS](https://nodejs.org/)
-2. Install [Files](https://github.com/Ruwin-dsc/Handler-Slash-v14-Bot/archive/refs/heads/main.zip)
+2. Install [Files](https://github.com/Ruwin-dsc/CrowRadio/archive/refs/heads/main.zip)
 3. Complete the configuration
 5. Enjoy the tool
 
