@@ -1,6 +1,7 @@
 module.exports = {
   name: 'ready',
   async execute(bot) {
+    console.log(`[!] Veuillez entrer la commande npm i ffmpeg-static @discordjs/voice ou de mettre dans startup --> additional node packages ffmpeg-static @discordjs/voice`)
     await bot.application.commands.set(bot.arrayOfSlashCommands);
     await bot.user.setPresence({ activities: [{ name: 'NRJ.', type: 2 }], status: 'online' });
     setInterval(() => {

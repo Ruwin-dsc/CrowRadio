@@ -1,6 +1,6 @@
 {
-  "name": "handler-slash-v14",
-  "author": "nekrxs.",
+  "name": "crowradio",
+  "author": "ruwinou.",
   "dependencies": {
     "@discordjs/voice": "^0.17.0",
     "better-sqlite3": "^11.0.0",
