@@ -33,9 +33,10 @@ module.exports = {
         VoiceConnection.subscribe(player)
         player.play(mp3)
 
-        await bot.db.prepare(`UPDATE guild SET channelAutomatic = @channel WHERE guildId = @id`).run({
+        const req = await bot.db.prepare(`UPDATE guild SET channelAutomatic = @channel WHERE guildId = @id`).run({
             channel: channel.id,
             id: interaction.guild.id
         })
+        console.log(req)
     }
 }

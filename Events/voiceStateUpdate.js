@@ -1,15 +1,18 @@
 const { getVoiceConnection, joinVoiceChannel, createAudioPlayer, createAudioResource } = require('@discordjs/voice')
 const config = require('../config.json')
+let connectedChannel
 module.exports = {
     name: 'voiceStateUpdate',
     async execute(oldState, newState, bot) {
         if (newState){
+            if(newState.bot) return
             if(!newState.channel) return
             const req = bot.db.prepare('SELECT * FROM guild WHERE guildId = ?').get(newState.guild.id);
             
-            const channel = await newState.guild.channels.fetch(req.channelAutomatic)
+            const channel = await newState.guild.channels.cache.get(req.channelAutomatic)
             if (!channel) return;
             if (newState.channel.id !== channel.id) return;
+            if(connectedChannel) return
       
             const VoiceConnection = joinVoiceChannel({
                 channelId: channel.id,
@@ -20,7 +23,8 @@ module.exports = {
             const mp3 = createAudioResource(config.flux); 
             const player = createAudioPlayer()
             VoiceConnection.subscribe(player)
-            player.play(mp3)
+            await player.play(mp3)
+            connectedChannel = true
         }        
     }
 }

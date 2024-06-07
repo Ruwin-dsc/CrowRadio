@@ -5,7 +5,7 @@ const Discord = require('discord.js');
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction, bot, config) {
-    let pass, ephemeral = false;
+    let pass, ephemeral = 'test';
     if (interaction.isCommand()) {
       const cmd = bot.slashCommands.get(interaction.commandName);
       const req = bot.db.prepare('SELECT * FROM guild WHERE guildId = ?').get(interaction.guild.id);
@@ -32,7 +32,7 @@ module.exports = {
             pass = true 
             if(req.otherEphemeral == 'on') ephemeral = true 
     }
-
+    console.log(ephemeral)
       if(pass == true) cmd.run(bot, interaction, args, config, ephemeral);
       else return interaction.reply({ content: `Vous ne pouvez pas utiliser cette commande`, ephemeral: true })
   }

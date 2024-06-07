@@ -1,5 +1,5 @@
 <h1 align="center">
- 💡 〢 Handler Slash v14 Bot
+ 📻 〢 Crow Radio
 </h1>
 
 ---
@@ -12,18 +12,18 @@
 - [🪄・Discord](https://discord.gg/uhq)
 
 ## <a id="deploys"></a>📩 〢 Deploys
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/replit.svg)](https://replit.com/github/Nekros-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/replit.svg)](https://replit.com/github/Ruwin-dsc/Handler-Slash-v14-Bot)
 
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/Nekros-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/Ruwin-dsc/Handler-Slash-v14-Bot)
 
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Nekros-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Ruwin-dsc/Handler-Slash-v14-Bot)
 
-[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/Nekros-dsc/Handler-Slash-v14-Bot)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/Ruwin-dsc/Handler-Slash-v14-Bot)
 
 ## <a id="setup"></a> 📁 〢 Setting up
 
 1. Install [NodeJS](https://nodejs.org/)
-2. Install [Files](https://github.com/Nekros-dsc/Handler-Slash-v14-Bot/archive/refs/heads/main.zip)
+2. Install [Files](https://github.com/Ruwin-dsc/Handler-Slash-v14-Bot/archive/refs/heads/main.zip)
 3. Complete the configuration
 5. Enjoy the tool
 
@@ -34,6 +34,6 @@
 - [x] We are NOT responsible of anything you do with our software (if its illegal).
 
 ### <a id="authors"></a>🕵️‍♂️ 〢 Authors
-- [Nekros](https://github.com/Nekros-dsc)
+- [Ruwin](https://github.com/Ruwin-dsc)
 
 ---
