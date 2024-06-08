@@ -8,7 +8,7 @@ module.exports = {
         const { guild, member } = interaction;
 
         const { dj } = bot.db.prepare('SELECT * FROM guild WHERE guildId = ?').get(guild.id);
-        const memberRoles = [member.roles.cache.values()];
+        const memberRoles = [...member.roles.cache.values()];
         let bypass = member.permissions.has(Discord.PermissionFlagsBits.Administrator) || Array.from(JSON.parse(dj), roleId => memberRoles.includes(roleId)).find(Boolean);
         
         const embeds = [{
