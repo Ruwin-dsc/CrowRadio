@@ -28,7 +28,8 @@ module.exports = {
             adapterCreator: interaction.guild.voiceAdapterCreator
         });
 
-        const mp3 = createAudioResource(config.flux); 
+        const mp3 = createAudioResource(config.flux, { inlineVolume: true, }); 
+        mp3.volume.setVolume(0.015)
         const player = createAudioPlayer()
         VoiceConnection.subscribe(player)
         player.play(mp3)
